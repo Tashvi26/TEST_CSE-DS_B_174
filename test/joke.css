@@ -1,0 +1,79 @@
+/* Apply basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 350px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#joke{
+    font-size: 18px;
+    color: #555;
+    margin: 20px 0;
+    line-height: 1.5;
+    min-height: 60px;
+}
+
+#character{
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+button {
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#get-joke {
+    background:linear-gradient(yellow,rgb(141, 224, 33),green);
+    color: white;
+}
+
+#get-joke:hover {
+    background-color: #45a049;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+#clear-joke {
+    background:linear-gradient(red,brown,black);
+    color: white;
+}
+
+#clear-joke:hover {
+    background-color: #b5d32f;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
